@@ -1,0 +1,44 @@
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import { AlignRight } from "lucide-react";
+import Image from "next/image";
+
+function ResponsiveNavbar() {
+  return (
+    <div className="fixed z-50 top-0 flex items-center justify-between w-screen bg-white h-[10vh] px-8">
+      <Image src={"/navbar/icon.svg"} alt="icon" width={180} height={180} />
+      <Sheet>
+        <SheetTrigger asChild>
+          <div className="flex w-full items-end justify-end ">
+            <AlignRight />
+          </div>
+        </SheetTrigger>
+        <SheetContent>
+          <SheetHeader>
+            <SheetTitle>Strength Place</SheetTitle>
+            <SheetDescription>
+              <div className="flex flex-col w-full items-start justify-start gap-6 mt-12 ">
+                {["Home", "About", "Trainer", "Couching", "Contact"].map(
+                  (item, index) => (
+                    <p className="cursor-pointer text-primary" key={index}>
+                      {item}
+                    </p>
+                  )
+                )}
+              </div>
+            </SheetDescription>
+          </SheetHeader>
+          <div className="grid gap-4 py-4"></div>
+        </SheetContent>
+      </Sheet>
+    </div>
+  );
+}
+
+export default ResponsiveNavbar;
