@@ -3,6 +3,7 @@ import HorizontalCard from "../common/horizontal-card";
 const AboutComponent = () => {
   return (
     <HorizontalCard
+      id="about"
       imageUri="/about.jpg"
       title="About Us"
       direction="row"

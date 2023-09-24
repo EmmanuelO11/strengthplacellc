@@ -7,22 +7,24 @@ interface Props {
   title: string;
   description: string;
   direction: "row" | "row-reverse";
+  id: string;
 }
 
 const HorizontalCard = (props: Props) => {
   return (
     <div
+      id={props.id}
       className={cn(
         "flex flex-col md:flex-row items-center gap-10 md:gap-20 px-20 w-full min-h-[100vh]  md:min-h-max",
         `${props.direction === "row" ? "md:flex-row" : "md:flex-row-reverse"} `
       )}
     >
-      <div className="relative w-[600px] h-[500px] flex flex-1">
+      <div className="relative max-w-[90vw] w-[600px] h-[500px] flex flex-1">
         <Image
           src={props.imageUri}
           alt="icon"
           fill
-          className="object-contain rounded-[50px] min-w-[600px] min-h-[320px] md:min-w-max md:min-h-max"
+          className="object-contain rounded-[50px] min-w-[90vw] max-w-[90vw] min-h-[320px] md:min-w-max md:min-h-max"
         />
       </div>
       <div className="flex justify-center px-8 md:px-0 gap-8 min-w-[100dvw] md:min-w-max flex-col flex-1">

@@ -4,7 +4,10 @@ import Title from "../ui/title";
 
 const HomeComponent = () => {
   return (
-    <div className="flex flex-col gap-4 w-full h-[58em] pt-24 px-5 md:px-20">
+    <div
+      id="home"
+      className="flex flex-col gap-4 w-full h-[58em] pt-24 px-5 md:px-20"
+    >
       <div className="flex w-full items-center justify-center gap-3">
         <Facebook size={18} className="cursor-pointer text-primary" />
         <Instagram size={18} className="cursor-pointer text-primary" />

@@ -4,6 +4,7 @@ import Title from "../ui/title";
 const TrainerComponent = () => {
   return (
     <div
+      id="trainer"
       style={{
         background: "url('/trainer-bg.jpg')",
         backgroundSize: "cover",

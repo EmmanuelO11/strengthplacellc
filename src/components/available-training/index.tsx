@@ -3,7 +3,10 @@ import TrainingCard from "./training-card";
 
 const AvailableTrainingComponent = () => {
   return (
-    <div className="w-full flex flex-col items-start px-10 md:px-20 gap-8">
+    <div
+      id="couching"
+      className="w-full flex flex-col items-start px-10 md:px-20 gap-8"
+    >
       <Title text={"Available Training Services"} />
 
       <p className="text-sm text-primary max-w-[80ch]">

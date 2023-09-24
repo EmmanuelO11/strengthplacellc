@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="grid grid-cols-2 w-screen h-max md:h-[50vh] px-10 md:px-2 gap-10 md:gap-0 p-[2em] pb-10">
+    <div
+      id="contact"
+      className="grid grid-cols-2 w-screen h-max md:h-[50vh] md:px-20 px-10 gap-10 md:gap-0 p-[2em] py-10"
+    >
       <div className="flex flex-col col-span-2 md:col-span-1 gap-4 md:gap-12">
         <div className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-16">
           <Image src={"/navbar/icon.svg"} alt="icon" width={200} height={200} />

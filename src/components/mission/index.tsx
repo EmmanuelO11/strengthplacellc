@@ -3,6 +3,7 @@ import HorizontalCard from "../common/horizontal-card";
 const MissionComponent = () => {
   return (
     <HorizontalCard
+      id="mission"
       imageUri="/mission.jpg"
       title="Mission"
       direction="row-reverse"
