@@ -12,8 +12,8 @@ export const navbarItems = [
     link: "#trainer",
   },
   {
-    name: "Couching",
-    link: "#couching",
+    name: "Coaching",
+    link: "#coaching",
   },
   {
     name: "Contact",
