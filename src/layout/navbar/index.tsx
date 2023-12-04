@@ -16,11 +16,7 @@ const Navbar = () => {
               <p className="cursor-pointer text-primary">{item.name}</p>
             </Link>
           ))}
-          <Search size={18} className="cursor-pointer text-primary" />
         </div>
-        <Button variant={"outline"} className="w-[9em] rounded-[50px]">
-          Join Now
-        </Button>
       </div>
       <div className="md:hidden">
         <ResponsiveNavbar />

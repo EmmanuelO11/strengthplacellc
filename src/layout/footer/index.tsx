@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-16">
           <Image src={"/navbar/icon.svg"} alt="icon" width={200} height={200} />
           <p className="text-[#444444] font-normal text-sm">
-            Sign Up For Industry Alesrts, News and Insights from Greates
+            Sign up for updates from Strength Place LLC
           </p>
         </div>
         <div className="flex items-center md:items-start md:flex-col gap-5">

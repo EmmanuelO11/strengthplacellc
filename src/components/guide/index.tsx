@@ -12,7 +12,7 @@ const Guide = () => {
       />
       <p className="text-center">
         The last three or four reps is what makes the muscle grow. This area of
-        pain divides a champion from someone who is not a champion
+        pain divides a champion from someone who is not a champion.
       </p>
       <p className="text-xs text-[#EE1B24]">- Arnold Schwarzenegger</p>
     </div>

@@ -4,7 +4,7 @@ import TrainingCard from "./training-card";
 const AvailableTrainingComponent = () => {
   return (
     <div
-      id="couching"
+      id="coaching"
       className="w-full flex flex-col items-start px-10 md:px-20 gap-8"
     >
       <Title text={"Available Training Services"} />
@@ -15,11 +15,19 @@ const AvailableTrainingComponent = () => {
         sequi nesciunt
       </p>
       <div className="flex overflow-x-scroll w-full pb-4 gap-8">
-        <TrainingCard />
-        <TrainingCard />
-        <TrainingCard />
-        <TrainingCard />
-        <TrainingCard />
+        <TrainingCard
+          title="Strength Athletes"
+        />
+        <TrainingCard
+          title="Youth Athletes"
+          imagePath="/youth_athlete.jpg"
+        />
+        <TrainingCard
+          title="Cross Functional Athletes"
+        />
+        <TrainingCard
+          title="Senior Strength"
+        />
       </div>
     </div>
   );

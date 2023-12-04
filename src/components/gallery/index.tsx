@@ -6,10 +6,6 @@ const GalleryComponent = () => {
     <div className="flex w-full flex-col px-10  md:px-20 h-[50em] gap-12">
       <div className="flex flex-col md:flex-row w-full items-center justify-between">
         <Title text={"OUR GALLERY"} />
-        <div className="flex items-center gap-4">
-          <p className="uppercase text-sm">More Galleries</p>
-          <Image src={"/play-black.svg"} alt="icon" width={30} height={30} />
-        </div>
       </div>
       <div className="w-full h-[100%] grid grid-cols-7 grid-rows-2 gap-5">
         <div className="flex flex-col col-span-7 md:col-span-4 row-span-1 md:row-span-2 w-full  gap-5 h-full">
