@@ -9,8 +9,20 @@ const HomeComponent = () => {
       className="flex flex-col gap-4 w-full h-[58em] pt-24 px-5 md:px-20"
     >
       <div className="flex w-full items-center justify-center gap-3">
-        <Facebook size={18} className="cursor-pointer text-primary" />
-        <Instagram size={18} className="cursor-pointer text-primary" />
+        <a
+          href="https://www.facebook.com/profile.php?id=61550089335422&mibextid=LQQJ4d"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Facebook size={18} className="cursor-pointer text-primary" />
+        </a>
+        <a
+          href="https://instagram.com/_strengthplace?igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Instagram size={18} className="cursor-pointer text-primary" />
+        </a>
       </div>
       <div className="w-full relative items-center">
         <Title align="center" text={"Strength is Medicine"} />
@@ -36,23 +48,6 @@ const HomeComponent = () => {
           height={120}
           className="absolute left-[-10px] top-[-10px] md:left-[-30px] md:top-[-30px]"
         />
-        <div className="flex flex-col gap-5 absolute text-white bottom-20 left-10 md:left-20">
-          <div className="flex items-center gap-6">
-            <Image
-              className="cursor-pointer"
-              src={"/play.svg"}
-              alt="icon"
-              width={50}
-              height={50}
-            />
-            <p>3 min</p>
-          </div>
-          <p className="w-full md:max-w-[40vw]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam
-          </p>
-        </div>
       </div>
     </div>
   );
