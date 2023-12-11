@@ -6,7 +6,7 @@ const TrainerComponent = () => {
     <div
       id="trainer"
       style={{
-        background: "url('/trainer-bg.jpg')",
+        background: "url('/trainer-bg.png')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

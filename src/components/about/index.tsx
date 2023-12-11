@@ -4,7 +4,7 @@ const AboutComponent = () => {
   return (
     <HorizontalCard
       id="about"
-      imageUri="/about.jpg"
+      imageUri="/trainer.png"
       title="About Us"
       direction="row"
       description="Strength Place Fitness Center is a private gym located in Lansing, a

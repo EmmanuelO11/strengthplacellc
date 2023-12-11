@@ -33,12 +33,6 @@ const HorizontalCard = (props: Props) => {
         <p className="text-primary text-sm md:max-w-[50ch]">
           {props.description}
         </p>
-        <Button
-          variant={"ghost"}
-          className="bg-[#EE1B24] text-white hover:text-white w-[9em] rounded-[50px]"
-        >
-          Join Now
-        </Button>
       </div>
     </div>
   );

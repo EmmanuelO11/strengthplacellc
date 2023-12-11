@@ -37,9 +37,15 @@ const HomeComponent = () => {
       <div className="w-full h-full relative mt-12">
         <Image
           src={"/home.jpg"}
-          alt="icon"
+          alt="Desktop Image"
           fill
-          className="object-cover rounded-[50px]"
+          className="w-full h-full object-cover rounded-[50px] 2xl:block" // Hide on medium and larger screens
+        />
+        <Image
+          src={"/home-mobile.jpg"}
+          alt="Mobile Image"
+          fill
+          className="w-full h-full object-cover rounded-[50px] md:hidden" // Display on medium and larger screens
         />
         <Image
           src={"/star.svg"}
