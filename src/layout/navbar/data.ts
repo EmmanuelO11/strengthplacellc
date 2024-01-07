@@ -1,4 +1,5 @@
 export const navbarItems = [
+  
   {
     name: "Home",
     link: "#home",

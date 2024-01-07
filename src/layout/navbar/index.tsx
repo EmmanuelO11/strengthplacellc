@@ -17,6 +17,18 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+        <a
+          href="https://strengthplace.gymmasteronline.com/portal/signup"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            variant={"outline"}
+            className="w-[9em] rounded-[50px] bg-[#EE1B24] text-white"
+          >
+            Join Now
+          </Button>
+        </a>
       </div>
       <div className="md:hidden">
         <ResponsiveNavbar />

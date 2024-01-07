@@ -16,8 +16,8 @@ const CommentCard = () => {
         important weightlifting impacts my overall sense of self.
       </p>
       <div className="flex flex-col items-center">
-        <p className="font-semibold text-[#EE1B24]">Carter Franci</p>
-        <p className="text-xs text-primary">Trainer</p>
+        <p className="font-semibold text-[#EE1B24]">Patrcia Nelson</p>
+        <p className="text-xs text-primary">Client</p>
       </div>
     </div>
   );
